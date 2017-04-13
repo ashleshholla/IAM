@@ -1,0 +1,16 @@
+dn: ou=<ID>,ou=Tenants,dc=tycoon,dc=io
+objectClass: organizationalUnit
+objectClass: top
+ou: <ID>
+
+dn: cn=Devices,ou=<ID>,ou=Tenants,dc=tycoon,dc=io
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Devices
+ou: Devices
+
+dn: cn=Users,ou=<ID>,ou=Tenants,dc=tycoon,dc=io
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Users
+ou: Users
